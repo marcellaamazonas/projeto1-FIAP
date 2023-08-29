@@ -1,0 +1,81 @@
+body {
+  font-size: 12px;
+  font-family: Arial,Verdana;
+  text-transform: uppercase;
+  margin: 0;
+} 
+
+.logo {
+  background-image: url(../img/logo.fw.png);
+  width: 194px;
+  height: 146px;
+  position: absolute;
+  top: 0px;
+  left: 255.8px;
+}
+
+ul.primary-menu {
+  margin: 30px 0 0 0;
+  padding: 0 20px;
+  background-color: #1b8e99;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+ul li.short-item {
+  width: 90px;
+}
+
+ul.primary-menu li {
+  display: flex;
+  list-style: none;
+}
+
+ul.primary-menu li a {
+  color:white;
+  text-decoration: none;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+}
+
+ul.primary-menu li a:hover {
+  background-color: #92c9ce;
+}
+
+.secondary-menu {
+  width: 100%;
+}
+
+ul.secondary-menu {
+  font-family: Arial,Verdana;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin: 0;
+  width: 930px;
+  padding: 20px;
+  background-color: #660000;
+  text-align: left;
+}
+
+ul.secondary-menu li {
+  display: inline;
+  justify-content: left;
+}
+
+ul.secondary-menu li a {
+  color:white;
+  text-decoration: none;
+  padding-right: 20px;
+}
+
+ul.secondary-menu li a:hover {
+  color: #660000;
+  background-color:white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+

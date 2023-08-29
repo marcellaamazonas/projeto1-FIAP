@@ -1,0 +1,240 @@
+h1.products {
+  color: #660000;
+  font-size: 18px;
+  font-family: Arial,Verdana;
+  padding: 20px;
+}
+
+h1.services{
+  color: #1b8e99;
+  font-size: 18px;
+  font-family: Arial, Verdana;
+  padding: 20px;
+}
+
+h1.products > span {
+  border-bottom: 2px solid #660000;
+  display: block;
+  height: 30px;
+  width: 819px;
+  margin: 28px;
+  margin-inline-start: -7px;
+}
+
+.divider {
+  background-color: #444444;
+  height: 20px;
+  margin-top: 10px;
+}
+
+h1.services > span {
+  border-bottom: 2px solid #1b8e99;
+  display: block;
+  height: 30px;
+  width: 819px;
+  margin: 28px;
+  margin-inline-start: -7px;
+}
+
+.container {
+  width: 980px;
+  margin: auto;
+}
+
+.banner {
+  background-image: url(../img/banner.fw.png);
+  width: 970px;
+  height: 352px;
+}
+
+.droneA {
+  background-image: url(../img/imgDroneA.png);
+  width: 125px;
+  height: 75px;
+  position: absolute;
+  margin: -124px 0px 0px 837px;
+}
+
+.droneB {
+  background-image: url(../img/imgDroneB.png);
+  width: 125px;
+  height: 91px;
+  position: absolute;
+  margin: -124px 0px 0px 837px;
+}
+
+.grid {
+  color: #1b8e99;
+  display: flex;
+  justify-content: space-between;
+  font-family: Tahoma;
+}
+
+.grid .card {
+  width: 280px;
+  border: 1px solid;
+}
+
+.grid .card h3 {
+  margin: 2px;
+  font-family: Arial;
+  font-size: 14px;
+  color: #1b8e99;
+  background-color: hsl(185, 40%, 78%);
+  text-align: center;
+  padding: 5px;
+}
+
+.grid .card h4 {
+  font-family:Tahoma;
+  font-size: 10px;
+  color: #1b8e99;
+  padding: 15px;
+  text-transform: none;
+}
+
+.footer{
+  color: white;
+  font-family: Tahoma;
+  display: flex; 
+  background-color: #1b8e99;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+
+.footer h2 {
+font-size: 25px;
+font-family: Tahoma;
+font-weight: 200;
+}
+
+.footer p {
+  margin-top: -12px;
+}
+
+button{
+  border-radius: 5px 5px;
+  border-width: 0px;
+  height: 54px;
+}
+
+.grid2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.grid2 .card2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #660000;
+  width: 300px;
+  height: 350px;
+  border: 1px solid #660000;
+}
+
+.grid2 .card2.card2-green {
+  color: #1b8e99;
+  border: 1px solid #1b8e99;
+}
+
+.card2-body {
+  height: 170px;
+  padding: 0 10px;
+}
+
+.grid2 .card2 h2.blue {
+  font-family: Tahoma;
+  font-size: 17px;
+  margin-top: 0px;
+  color: #1b8e99;
+  text-align: left;
+}
+
+.grid2 .card2 h2.red {
+  font-family: Tahoma;
+  font-size: 17px;
+  margin-top: 0px;
+  color:#660000;
+  text-align: left;
+}
+
+.grid2 .card2 p.red {
+  font-family:Tahoma;
+  text-align: justify;
+  font-size: 13px;
+  color: #660000;
+  text-transform: none;
+}
+
+.grid2 .card2 p.blue {
+  font-family:Tahoma;
+  text-align: justify;
+  font-size: 13px;
+  color: #1b8e99;
+  text-transform: none;
+}
+
+.color {
+background-color: #660000;
+height: 15px;
+}
+
+.color2 {
+  background-color: #1b8e99;
+  height: 15px;
+}
+
+.drones {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 161px;
+}
+
+.drones img {
+  padding-top: 80px;
+}
+
+.rodape {
+  color: white;
+  display: flex;
+  background-color: #1b8e99;
+  font-size: 14px;
+  text-align: justify;
+  text-transform: none;
+  height: 96px;
+}
+
+.rodape img {
+  height: 30px;
+  margin-top: 25px;
+  padding: 10px;
+  margin-right: 65px;
+}
+
+.rodape p {
+  margin-top: 23px;
+}
+
+.rodape2 {
+  background-color: #660000;
+  height: 26px;
+}
+
+.rodape2 p{
+  color: white;
+  font-size: 14px;
+  text-transform: none;
+  text-align: center;
+  margin-top: 0px;
+  padding: 5px;
+  margin-left: 773px;
+}
+
+.teacher img {
+  position: absolute;
+  margin-left: 872px;
+  margin-top: -199px;
+}
